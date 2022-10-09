@@ -1,0 +1,2 @@
+rm_conffile /etc/xdg/kcardtheme.knsrc 4:20.12.1-1~
+rm_conffile /etc/xdg/kpat.knsrc 4:20.12.1-1~

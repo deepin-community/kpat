@@ -1,0 +1,694 @@
+kpat (4:21.08.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.08.0).
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 16 Aug 2021 16:23:04 +0900
+
+kpat (4:21.04.1-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.1).
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 14 May 2021 08:49:49 +0900
+
+kpat (4:21.04.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.0).
+  * Fix up libkf5kdegames-dev version.
+  * Borrow minimal upstream signing key from k3b.
+  * Drop Kubuntu from maintainer name.
+  * Removed Eshat Cakar, George Kiagiadakis, Maximiliano Curia, Modestas
+    Vainius from the uploaders, thanks for your work on the package!
+  * Added myself to the uploaders.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 28 Apr 2021 10:41:57 +0900
+
+kpat (4:20.12.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Bump Standards-Version to 4.5.1, no changes required.
+  * Pass -DWITH_BH_SOLVER=OFF to cmake, as black-hole-solitaire is not
+    available in Debian yet.
+  * Unregister the old /etc/xdg/kcardtheme.knsrc, and /etc/xdg/kpat.knsrc
+    conffiles.
+
+ -- Pino Toscano <pino@debian.org>  Thu, 07 Jan 2021 23:39:26 +0100
+
+kpat (4:20.08.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Remove obsolete field Name from debian/upstream/metadata (already present in
+    machine-readable debian/copyright).
+  * Update lintian overrides.
+
+ -- Pino Toscano <pino@debian.org>  Mon, 16 Nov 2020 10:51:41 +0100
+
+kpat (4:20.08.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Stop removing the kpat_mimetypes.mo translations, as they are no more
+    shipped now.
+  * Remove the explicit as-needed linking, as it is done by binutils now.
+  * CI: disable the reprotest build path variations.
+
+ -- Pino Toscano <pino@debian.org>  Thu, 03 Sep 2020 17:27:25 +0200
+
+kpat (4:20.08.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Bump the debhelper compatibility to 13:
+    - switch the debhelper-compat build dependency to 13
+  * Update the build dependencies according to the upstream build system:
+    - bump Qt packages to 5.12.0
+    - bump KF packages to 5.59.0
+
+ -- Pino Toscano <pino@debian.org>  Fri, 14 Aug 2020 19:45:56 +0200
+
+kpat (4:20.04.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release:
+    - does not build logs of debug prints by default (Closes: #941858)
+  * Update the build dependencies according to the upstream build system:
+    - bump the Qt packages to 5.10.0
+  * Do not create temporary directories for the tests, as they run fine even
+    without them.
+  * Add the configuration for the CI on salsa.
+  * Do not ship the kpat_mimetypes.mo translations, as their .po files are used
+    to translate the mimetype XML files (which embed translations).
+  * Update lintian overrides.
+
+ -- Pino Toscano <pino@debian.org>  Fri, 12 Jun 2020 11:57:42 +0200
+
+kpat (4:19.12.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * Switch debian/watch to new KDE release service URL.
+  * New upstream release (19.12.1):
+    - Add High DPI support. (Closes: #823131)
+  * Review debian/copyright.
+  * Bump Standards-Version to 4.5.0:
+    - Add Rules-Requires-Root: no.
+  * Drop kde-l10n migration rules, not required anymore after 2 stable
+    releases.
+  * Move from dhmk to dh, bump compatibility level to 12.
+  * Add hardening=+all build hardening flag.
+  * Borrow minimal upstream signing key from k3b.
+  * Update upstream project homepage URL.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Mon, 03 Feb 2020 20:01:05 +0100
+
+kpat (4:19.08.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Bump Standards-Version to 4.4.1, no changes required.
+  * Update the build dependencies according to the upstream build system:
+    - bump cmake to 3.5.0
+    - bump the Qt packages to 5.9.0
+    - bump the KF packages to 5.46.0
+    - remove qtdeclarative5-dev, no more needed
+    - explicitly add gettext
+    - add pkg-config, and libfreecell-solver-dev, used for the new solver
+  * Switch cmake parameter BIN_INSTALL_DIR to KDE_INSTALL_BINDIR, as the former
+    is deprecated.
+  * Run the tests under xvfb-run, as they need a DISPLAY:
+    - add xauth, and xvfb as build dependencies
+  * Update lintian overrides.
+
+ -- Pino Toscano <pino@debian.org>  Sun, 06 Oct 2019 11:20:43 +0200
+
+kpat (4:18.04.1-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (18.04.1).
+  * Update Vcs links to salsa.
+  * Use secure copyright format uri.
+  * Bump Standards-Version to 4.1.4 (No changes needed).
+  * Bump debhelper build-dep and compat to 11.
+  * Update build-deps and deps with the info from cmake
+  * Update copyright file for new upstream.
+
+ -- Sandro Knauß <hefee@debian.org>  Tue, 29 May 2018 02:30:50 +0200
+
+kpat (4:17.08.3-3) unstable; urgency=medium
+
+  * Team upload.
+  * Adjust again l10npkgs_firstversion_ok to the fixed version of kde-
+    l10n.
+
+ -- Pino Toscano <pino@debian.org>  Mon, 20 Nov 2017 20:56:46 +0100
+
+kpat (4:17.08.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Bump l10npkgs_firstversion_ok to 4:16.04.3-3~, since that version removes
+    also the translated man pages (now shipped in this source).
+    (Closes: #882124)
+
+ -- Pino Toscano <pino@debian.org>  Sun, 19 Nov 2017 12:11:08 +0100
+
+kpat (4:17.08.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Maximiliano Curia ]
+  * New upstream release (17.08.1)
+  * Bump Standards-Version to 4.1.0.
+  * Update upstream metadata
+  * Update build-deps and deps with the info from cmake
+  * Update uploaders list as requested by MIA team (Closes: #879363)
+
+  [ Pino Toscano ]
+  * New upstream release.
+  * Adjust l10npkgs_firstversion_ok to the version where kde-l10n will
+    drop translations.
+  * Bump Standards-Version to 4.1.1, no changes required.
+  * Simplify watch file, and switch it to https.
+  * Stop forcing debian/tmp as local installation directory, installing
+    everything to the final location
+    - drop kpat.install, no more useful now
+  * Remove local man page, since upstream provides it (with translated
+    versions as well)
+    - drop not-installed, no more useful now
+  * Remove unused build dependencies: libkf5declarative-dev,
+    libkf5iconthemes-dev, libkf5itemviews-dev, libkf5kdelibs4support-dev,
+    libkf5notifyconfig-dev, libkf5textwidgets-dev, libphonon4qt5-dev, and
+    libphonon4qt5experimental-dev.
+
+ -- Pino Toscano <pino@debian.org>  Sat, 18 Nov 2017 16:59:17 +0100
+
+kpat (4:17.08.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 05 Sep 2017 14:02:58 +0000
+
+kpat (4:17.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 17 Aug 2017 09:39:20 +0000
+
+kpat (4:17.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 12 Jul 2017 10:23:19 +0000
+
+kpat (4:17.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 07 Jun 2017 12:22:54 +0000
+
+kpat (4:17.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 11 May 2017 18:23:14 +0000
+
+kpat (4:17.04.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 19 Apr 2017 13:05:26 +0000
+
+kpat (4:16.12.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Mar 2017 13:49:43 +0000
+
+kpat (4:16.12.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Feb 2017 17:01:40 +0000
+
+kpat (4:16.12.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 11 Jan 2017 13:21:18 +0000
+
+kpat (4:16.12.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 14 Dec 2016 16:30:08 +0000
+
+kpat (4:16.08.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 21 Nov 2016 13:53:54 +0000
+
+kpat (4:16.08.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 14 Oct 2016 13:40:31 +0000
+
+kpat (4:16.08.1-1) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (16.08.1)
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Oct 2016 00:12:46 +0200
+
+kpat (4:16.08.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 16 Sep 2016 13:07:31 +0000
+
+kpat (4:16.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 17 Aug 2016 11:49:38 +0000
+
+kpat (4:16.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 12 Jul 2016 11:37:42 +0000
+
+kpat (4:16.04.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 05 Jul 2016 16:11:31 +0000
+
+kpat (4:16.04.0-2) unstable; urgency=medium
+
+  * Add new libkcardgame.so lintian-override
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 27 Jun 2016 16:32:58 +0200
+
+kpat (4:16.04.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * Remove menu file and friends
+  * New upstream release (15.12.2).
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 19:43:48 +0200
+
+kpat (4:15.12.1-1) experimental; urgency=medium
+
+  * New upstream release (15.12.0).
+  * New upstream release (15.12.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:24:10 +0100
+
+kpat (4:15.08.3-1) unstable; urgency=medium
+
+  * New upstream release (15.08.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:39:52 +0100
+
+kpat (4:15.08.2-1) unstable; urgency=medium
+
+  * New upstream release (15.08.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Oct 2015 08:06:46 +0200
+
+kpat (4:15.08.1-1) unstable; urgency=medium
+
+  * New upstream release (15.08.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 02:44:56 +0200
+
+kpat (4:15.08.0-1) unstable; urgency=medium
+
+  * New upstream release (15.04.0).
+  * New upstream release (15.04.1).
+  * New upstream release (15.08.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 10 Sep 2015 09:34:29 +0200
+
+kpat (4:15.08.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Wed, 26 Aug 2015 17:34:22 +0100
+
+kpat (4:15.07.90-0ubuntu1) wily; urgency=medium
+
+  * new upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 10:51:16 +0100
+
+kpat (4:15.04.2-0ubuntu1) wily; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream release
+  * New upstream release
+  * Vivid backport
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 19:16:45 +0200
+
+kpat (4:14.12.3-1) experimental; urgency=medium
+
+  * New upstream release (14.12.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 29 Mar 2015 15:12:59 +0200
+
+kpat (4:14.12.3-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 14:34:37 -0700
+
+kpat (4:14.12.2-1) experimental; urgency=medium
+
+  * New upstream release (14.12.2).
+  * Bump Standards-Version to 3.9.6, no changes needed.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Feb 2015 16:43:55 +0100
+
+kpat (4:14.12.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Remove kdelibs5-dev depend version as there was not a new release.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 09:38:06 -0800
+
+kpat (4:14.11.97-0ubuntu1) vivid; urgency=medium
+
+  * New upstream RC release
+  * Merge with Debian, remaining changes: not-installed
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 28 Nov 2014 19:23:42 +0100
+
+kpat (4:4.14.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Oct 2014 05:56:49 -0700
+
+kpat (4:4.14.1-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 22 Sep 2014 17:27:55 +0200
+
+kpat (4:4.14.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 20 Aug 2014 13:19:19 +0200
+
+kpat (4:4.13.97-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release RC
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Fri, 01 Aug 2014 17:02:22 +0200
+
+kpat (4:4.13.95-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 30 Jul 2014 18:29:04 +0200
+
+kpat (4:4.13.90-0ubuntu1) utopic; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream beta release
+
+  [ Jonathan Riddell ]
+  * Add not-installed file
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 24 Jul 2014 23:23:03 +0200
+
+kpat (4:4.13.2-0ubuntu1) utopic; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Jun 2014 12:04:09 +0100
+
+kpat (4:4.13.2-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+  * Merge with Debian, no changes
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Jun 2014 10:41:56 +0100
+
+kpat (4:4.13.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 23 May 2014 10:18:56 +0200
+
+kpat (4:4.12.4-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Apr 2014 12:25:22 +0200
+
+kpat (4:4.12.3-1) experimental; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Mar 2014 00:06:17 +0100
+
+kpat (4:4.12.2-1) experimental; urgency=medium
+
+  * Do not disable an empty test set.
+  * Bump Standards-Version to 3.9.5, no changes needed.
+  * New upstream release.
+  * Bump kde-sc-dev-latest build dependency.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:32:29 +0100
+
+kpat (4:4.11.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update build dependencies.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 07 Nov 2013 14:28:10 +0100
+
+kpat (4:4.11.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Oct 2013 15:29:20 +0200
+
+kpat (4:4.10.5-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Jul 2013 00:15:23 +0200
+
+kpat (4:4.10.4-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update vcs fields.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 10:54:28 +0200
+
+kpat (4:4.10.2-1) experimental; urgency=low
+
+  * First release of kdegames after being split by upstream.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 11 Apr 2013 10:04:06 +0200
+
+kpat (4:4.13.0-0ubuntu1) trusty; urgency=medium
+
+  * New upstream KDE Software Compilation release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Apr 2014 22:11:36 +0100
+
+kpat (4:4.12.97-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 02 Apr 2014 11:36:48 +0200
+
+kpat (4:4.12.95-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sun, 23 Mar 2014 12:37:55 +0100
+
+kpat (4:4.12.90-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 11:08:41 +0000
+
+kpat (4:4.12.3-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 04 Mar 2014 20:58:16 +0100
+
+kpat (4:4.12.2-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 05 Feb 2014 00:10:29 +0000
+
+kpat (4:4.12.1-0ubuntu1) trusty; urgency=low
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Thu, 16 Jan 2014 08:25:57 +0000
+
+kpat (4:4.12.0-0ubuntu1) trusty; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Dec 2013 17:20:05 +0000
+
+kpat (4:4.11.97-0ubuntu1) trusty; urgency=low
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 29 Nov 2013 13:20:11 +0000
+
+kpat (4:4.11.95-0ubuntu1) trusty; urgency=low
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 25 Nov 2013 18:17:31 +0100
+
+kpat (4:4.11.80-0ubuntu1) trusty; urgency=low
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 17:47:16 +0100
+
+kpat (4:4.11.2-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 30 Sep 2013 14:35:27 +0100
+
+kpat (4:4.11.1-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release.
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 06 Sep 2013 22:29:04 +0100
+
+kpat (4:4.11.0-0ubuntu1) saucy; urgency=low
+
+  [ Howard Chan ]
+  * New upstream release
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Aug 2013 00:24:41 +0100
+
+kpat (4:4.10.97-0ubuntu1) saucy; urgency=low
+
+  * New upstream RC 2 release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 26 Jul 2013 19:46:15 +0100
+
+kpat (4:4.10.95-0ubuntu1) saucy; urgency=low
+
+  * New upstream RC release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 19 Jul 2013 12:32:53 +0000
+
+kpat (4:4.10.90-0ubuntu1) saucy; urgency=low
+
+  * New upstream bet release
+
+ -- Michał Zając <quintasan@kubuntu.org>  Fri, 28 Jun 2013 18:20:30 +0100
+
+kpat (4:4.10.80-0ubuntu1) saucy; urgency=low
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 21 Jun 2013 01:30:02 +0100
+
+kpat (4:4.10.4-0ubuntu1) saucy-proposed; urgency=low
+
+  [ Rohan Garg ]
+  * New upstream bugfix release
+
+  [ Jonathan Riddell ]
+  * Add not-installed
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 07 Jun 2013 00:39:42 +0100
+
+kpat (4:4.10.3-0ubuntu1) saucy; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 23 May 2013 11:04:49 +0000
+
+kpat (4:4.10.2-1) experimental; urgency=low
+
+  * First release of kdegames after being split by upstream.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 11 Apr 2013 10:04:06 +0200
+
+kpat (4:4.10.2-0ubuntu1) raring; urgency=low
+
+  * New upstream bugfix release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 31 Mar 2013 14:54:34 +0200
+
+kpat (4:4.10.1-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream bugfix release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 05 Mar 2013 16:35:46 +0000
+
+kpat (4:4.10.0-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 06 Feb 2013 12:00:50 +0000
+
+kpat (4:4.9.98-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream release candidate
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 18 Jan 2013 15:49:13 +0000
+
+kpat (4:4.9.97-0ubuntu1) raring; urgency=low
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Thu, 03 Jan 2013 22:40:38 +0100
+
+kpat (4:4.9.95-0ubuntu1~ubuntu13.04~ppa2) raring; urgency=low
+
+  * Install to /usr/games
+  * Version dependency on kdegames-data
+  * New upstream RC release
+  * Add build-dep on shared-mime-info
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Dec 2012 23:37:04 +0000
+
+kpat (4:4.9.90-0ubuntu1) raring-proposed; urgency=low
+
+  * Initial release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Dec 2012 18:03:06 +0000

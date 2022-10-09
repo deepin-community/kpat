@@ -1,0 +1,49 @@
+Source: kpat
+Section: games
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Daniel Schepler <schepler@debian.org>,
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+           Norbert Preining <norbert@preining.info>,
+           Sune Vuorela <sune@debian.org>,
+Build-Depends: cmake (>= 3.5.0~),
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 5.64.0~),
+               gettext,
+               libfreecell-solver-dev,
+               libkf5completion-dev (>= 5.64.0~),
+               libkf5config-dev (>= 5.64.0~),
+               libkf5configwidgets-dev (>= 5.64.0~),
+               libkf5coreaddons-dev (>= 5.64.0~),
+               libkf5crash-dev (>= 5.64.0~),
+               libkf5dbusaddons-dev (>= 5.64.0~),
+               libkf5doctools-dev (>= 5.64.0~),
+               libkf5guiaddons-dev (>= 5.64.0~),
+               libkf5i18n-dev (>= 5.64.0~),
+               libkf5kdegames-dev (>= 4:21.04.0~),
+               libkf5kio-dev (>= 5.64.0~),
+               libkf5newstuff-dev (>= 5.64.0~),
+               libkf5widgetsaddons-dev (>= 5.64.0~),
+               libkf5xmlgui-dev (>= 5.64.0~),
+               libqt5svg5-dev (>= 5.12.0~),
+               pkg-config,
+               pkg-kde-tools (>= 0.14),
+               qtbase5-dev (>= 5.12.0~),
+               shared-mime-info,
+               xauth,
+               xvfb,
+Standards-Version: 4.5.1
+Homepage: https://kde.org/applications/games/org.kde.kpat
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kpat
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kpat.git
+Rules-Requires-Root: no
+
+Package: kpat
+Architecture: any
+Depends: kdegames-card-data-kf5 (>= 4:4.10), ${misc:Depends}, ${shlibs:Depends}
+Recommends: khelpcenter
+Description: solitaire card games
+ KPatience is a collection of fourteen solitaire card games, including Klondike,
+ Spider, and FreeCell.
+ .
+ This package is part of the KDE games module.

@@ -1,0 +1,1078 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Lukáš Tinkl <ltinkl@redhat.com>, 2010.
+# Vít Pelčák <vit@pelcak.org>, 2010, 2011, 2012, 2013, 2014, 2016, 2017, 2018, 2020.
+# Tomáš Chvátal <tomas.chvatal@gmail.com>, 2012.
+# Vit Pelcak <vpelcak@suse.cz>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kpat\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-06-20 00:15+0000\n"
+"PO-Revision-Date: 2021-06-17 11:30+0200\n"
+"Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
+"Language-Team: Czech <kde-i18n-doc@kde.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Lokalize 21.04.2\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Lukáš Tinkl, Ivo Jánský, David Kolibáč, Pavel Fric, Lukáš Vlček"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+"lukas@kde.org, Ivo.Jansky@seznam.cz, david@kolibac.cz, pavelfric@seznam.cz, "
+"lukas.vlcek777@gmail.com"
+
+#: bakersdozen.cpp:92 castle.cpp:403 freecell.cpp:387
+#, kde-format
+msgid "Popular Variant Presets"
+msgstr ""
+
+#: bakersdozen.cpp:93 bakersdozen.cpp:295 bakersdozen.cpp:297
+#, kde-format
+msgid "Baker's Dozen"
+msgstr ""
+
+#: bakersdozen.cpp:94 bakersdozen.cpp:298
+#, kde-format
+msgid "Spanish Patience"
+msgstr ""
+
+#: bakersdozen.cpp:95 bakersdozen.cpp:299
+#, kde-format
+msgid "Castles in Spain"
+msgstr ""
+
+#: bakersdozen.cpp:96 bakersdozen.cpp:300
+#, kde-format
+msgid "Portuguese Solitaire"
+msgstr ""
+
+#: bakersdozen.cpp:97 castle.cpp:410 freecell.cpp:393
+#, kde-format
+msgid "Custom"
+msgstr "Vlastní"
+
+#: bakersdozen.cpp:99 castle.cpp:412 freecell.cpp:395
+#, kde-format
+msgid "Empty Stack Fill"
+msgstr ""
+
+#: bakersdozen.cpp:100 castle.cpp:413 freecell.cpp:396
+#, kde-format
+msgid "Any (Easy)"
+msgstr ""
+
+#: bakersdozen.cpp:101 castle.cpp:414 freecell.cpp:397
+#, kde-format
+msgid "Kings only (Medium)"
+msgstr ""
+
+#: bakersdozen.cpp:102 castle.cpp:415 freecell.cpp:398
+#, kde-format
+msgid "None (Hard)"
+msgstr ""
+
+#: bakersdozen.cpp:104
+#, kde-format
+msgid "Stack Options"
+msgstr ""
+
+#: bakersdozen.cpp:105
+#, kde-format
+msgid "Face &Up (Easier)"
+msgstr ""
+
+#: bakersdozen.cpp:106
+#, kde-format
+msgid "Face &Down (Harder)"
+msgstr ""
+
+#: bakersdozen.cpp:108 castle.cpp:417 freecell.cpp:400
+#, kde-format
+msgid "Build Sequence"
+msgstr ""
+
+#: bakersdozen.cpp:109 castle.cpp:418 freecell.cpp:401
+#, kde-format
+msgid "Alternating Color"
+msgstr ""
+
+#: bakersdozen.cpp:110 castle.cpp:419 freecell.cpp:402
+#, kde-format
+msgid "Matching Suit"
+msgstr ""
+
+#: bakersdozen.cpp:111 castle.cpp:420 freecell.cpp:403
+#, kde-format
+msgid "Rank"
+msgstr "Pořadí"
+
+#: bakersdozen.cpp:301
+#, kde-format
+msgid "Baker's Dozen (Custom)"
+msgstr ""
+
+#: castle.cpp:362
+#, kde-format
+msgid "Castle"
+msgstr "Hrad"
+
+#: castle.cpp:364 castle.cpp:404
+#, kde-format
+msgid "Beleaguered Castle"
+msgstr ""
+
+#: castle.cpp:365 castle.cpp:405
+#, kde-format
+msgid "Citadel"
+msgstr "Citadel"
+
+#: castle.cpp:366 castle.cpp:406
+#, kde-format
+msgid "Exiled Kings"
+msgstr ""
+
+#: castle.cpp:367 castle.cpp:407
+#, kde-format
+msgid "Streets and Alleys"
+msgstr ""
+
+#: castle.cpp:368 castle.cpp:408
+#, kde-format
+msgid "Siegecraft"
+msgstr ""
+
+#: castle.cpp:369 castle.cpp:409
+#, kde-format
+msgid "Stronghold"
+msgstr ""
+
+#: castle.cpp:370
+#, kde-format
+msgid "Castle (Custom)"
+msgstr ""
+
+#: castle.cpp:422
+#, kde-format
+msgid "Free Cells"
+msgstr ""
+
+#: castle.cpp:423 freecell.cpp:406
+#, kde-format
+msgid "0"
+msgstr "0"
+
+#: castle.cpp:424 freecell.cpp:407 freecell.cpp:426
+#, kde-format
+msgid "1"
+msgstr "1"
+
+#: castle.cpp:425 freecell.cpp:408 freecell.cpp:427
+#, kde-format
+msgid "2"
+msgstr "2"
+
+#: castle.cpp:426 freecell.cpp:409 freecell.cpp:428
+#, kde-format
+msgid "3"
+msgstr "3"
+
+#: castle.cpp:427 freecell.cpp:410
+#, kde-format
+msgid "4"
+msgstr "4"
+
+#: castle.cpp:429 freecell.cpp:416
+#, kde-format
+msgid "Stacks"
+msgstr ""
+
+#: castle.cpp:430 freecell.cpp:412 freecell.cpp:417
+#, kde-format
+msgid "6"
+msgstr "6"
+
+#: castle.cpp:431 freecell.cpp:413 freecell.cpp:418
+#, kde-format
+msgid "7"
+msgstr "7"
+
+#: castle.cpp:432 freecell.cpp:414 freecell.cpp:419
+#, kde-format
+msgid "8"
+msgstr "8"
+
+#: castle.cpp:433 freecell.cpp:420
+#, kde-format
+msgid "9"
+msgstr "9"
+
+#: castle.cpp:434 freecell.cpp:421
+#, kde-format
+msgid "10"
+msgstr "10"
+
+#: castle.cpp:436 spider.cpp:156
+#, kde-format
+msgid "S&tack Options"
+msgstr "Nastavení &herních sloupců"
+
+#: castle.cpp:437
+#, kde-format
+msgid "Face &Down"
+msgstr ""
+
+#: castle.cpp:438
+#, kde-format
+msgid "Face &Up"
+msgstr ""
+
+#: castle.cpp:439
+#, kde-format
+msgid "Alternating Face &Up"
+msgstr ""
+
+#: castle.cpp:441
+#, kde-format
+msgid "Foundation Deal"
+msgstr ""
+
+# žádné parametry funkce v inspektoru funkcí
+#: castle.cpp:442
+#, kde-format
+msgid "None"
+msgstr "Nic"
+
+#: castle.cpp:443
+#, kde-format
+msgid "Aces"
+msgstr "Esa"
+
+#: castle.cpp:444
+#, kde-format
+msgid "Any"
+msgstr "Cokoliv"
+
+#: castle.cpp:446
+#, kde-format
+msgid "Layout"
+msgstr "Rozvržení"
+
+#: castle.cpp:447
+#, kde-format
+msgid "Classic"
+msgstr "Klasický"
+
+#: castle.cpp:448
+#, kde-format
+msgid "Modern"
+msgstr "Moderní"
+
+#: clock.cpp:156
+#, kde-format
+msgid "Grandfather's Clock"
+msgstr "Dědečkovy hodiny"
+
+#: dealer.cpp:73
+#, kde-format
+msgid "Solver: This game is winnable."
+msgstr "Řešitel: tuto hru lze vyhrát."
+
+#: dealer.cpp:75
+#, kde-format
+msgid "Solver: This game is no longer winnable."
+msgstr "Řešitel: tuto hru již nelze vyhrát."
+
+#: dealer.cpp:76
+#, kde-format
+msgid "Solver: This game cannot be won."
+msgstr "Řešitel: tuto hru nelze vyhrát."
+
+#: dealer.cpp:78
+#, kde-format
+msgid "Solver: Unable to determine if this game is winnable."
+msgstr "Řešitel: nelze zjistit, jestli lze hru vyhrát."
+
+#: dealer.cpp:977
+#, kde-format
+msgid "Congratulations! We have won."
+msgstr "Gratulace! Vyhráli jsme."
+
+#: dealer.cpp:979
+#, kde-format
+msgid "Congratulations! You have won."
+msgstr "Gratulace! Vyhráli jste."
+
+#: dealer.cpp:1326
+#, kde-format
+msgid "Solver: This game is lost."
+msgstr "Řešitel: tato hra je ztracena."
+
+#: dealer.cpp:1480
+#, kde-format
+msgid "Solver: Calculating..."
+msgstr "Probíhá výpočet..."
+
+#: dealer.cpp:1955
+#, kde-format
+msgid ""
+"A new game has been requested, but there is already a game in progress.\n"
+"\n"
+"A loss will be recorded in the statistics if the current game is abandoned."
+msgstr ""
+"Je požadována nová hra, ale už jedna probíhá.\n"
+"\n"
+"Pokud ukončíte aktuální hru, bude do statistik zaznamenána prohra."
+
+#: dealer.cpp:1957
+#, kde-format
+msgid "Abandon Current Game?"
+msgstr "Ukončit aktuální hru?"
+
+#: dealer.cpp:1958
+#, kde-format
+msgid "Abandon Current Game"
+msgstr "Přerušit aktuální hru"
+
+#: fortyeight.cpp:253
+#, kde-format
+msgid "Forty & Eight"
+msgstr "Čtyřicet & osm"
+
+#: freecell.cpp:349 freecell.cpp:354 freecell.cpp:391
+#, kde-format
+msgid "Freecell"
+msgstr "Freecell"
+
+#: freecell.cpp:351 freecell.cpp:388
+#, kde-format
+msgid "Baker's Game"
+msgstr ""
+
+#: freecell.cpp:352 freecell.cpp:389
+#, kde-format
+msgid "Eight Off"
+msgstr ""
+
+#: freecell.cpp:353 freecell.cpp:390
+#, kde-format
+msgid "Forecell"
+msgstr ""
+
+#: freecell.cpp:355 freecell.cpp:392
+#, kde-format
+msgid "Seahaven Towers"
+msgstr ""
+
+#: freecell.cpp:356
+#, kde-format
+msgid "Freecell (Custom)"
+msgstr ""
+
+#: freecell.cpp:405
+#, kde-format
+msgid "Free cells"
+msgstr ""
+
+#: freecell.cpp:411
+#, kde-format
+msgid "5"
+msgstr "5"
+
+#: freecell.cpp:422
+#, kde-format
+msgid "11"
+msgstr "11"
+
+#: freecell.cpp:423
+#, kde-format
+msgid "12"
+msgstr "12"
+
+#: freecell.cpp:425
+#, kde-format
+msgid "Decks"
+msgstr ""
+
+#: golf.cpp:196
+#, kde-format
+msgid "Golf"
+msgstr "Golf"
+
+#: grandf.cpp:201
+#, kde-format
+msgid "Grandfather"
+msgstr "Dědeček"
+
+#: gypsy.cpp:178
+#, kde-format
+msgid "Gypsy"
+msgstr "Cikán"
+
+#: idiot.cpp:259
+#, kde-format
+msgid "Aces Up"
+msgstr "Esa nahoru"
+
+#: klondike.cpp:144
+#, kde-format
+msgid "Klondike &Options"
+msgstr "M&ožnosti Klondike"
+
+#: klondike.cpp:145
+#, kde-format
+msgid "Draw 1"
+msgstr "Sejmout 1"
+
+#: klondike.cpp:146
+#, kde-format
+msgid "Draw 3"
+msgstr "Sejmout 3"
+
+#: klondike.cpp:351
+#, kde-format
+msgid "Klondike"
+msgstr "Klondike"
+
+#: klondike.cpp:353
+#, kde-format
+msgid "Klondike (Draw 1)"
+msgstr "Klondike (vzít 1)"
+
+#: klondike.cpp:354
+#, kde-format
+msgid "Klondike (Draw 3)"
+msgstr "Klondike (vzít 3)"
+
+#. i18n: ectx: Menu (move)
+#: kpatui.rc:23
+#, kde-format
+msgid "Move"
+msgstr "Tah"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kpatui.rc:43
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Hlavní panel nástrojů"
+
+#: libkcardgame/kcardthemewidget.cpp:295
+#, kde-format
+msgid "Loading..."
+msgstr "Probíhá načítání..."
+
+#: libkcardgame/kcardthemewidget.cpp:397
+#, kde-format
+msgid "Get New Card Decks..."
+msgstr "Získat novou sadu karet..."
+
+#: main.cpp:117
+#, kde-format
+msgid "KPatience"
+msgstr "KPatience"
+
+#: main.cpp:119
+#, kde-format
+msgid "KDE Patience Game"
+msgstr "Pasiáns pro KDE"
+
+#: main.cpp:121
+#, kde-format
+msgid ""
+"© 1995 Paul Olav Tvete\n"
+"© 2000 Stephan Kulow"
+msgstr ""
+"© 1995 Paul Olav Tvete\n"
+"© 2000 Stephan Kulow"
+
+#: main.cpp:126
+#, kde-format
+msgid "Paul Olav Tvete"
+msgstr "Paul Olav Tvete"
+
+#: main.cpp:127
+#, kde-format
+msgid "Author of original Qt version"
+msgstr "Autor původní Qt verze"
+
+#: main.cpp:129
+#, kde-format
+msgid "Mario Weilguni"
+msgstr "Mario Weilguni"
+
+#: main.cpp:130
+#, kde-format
+msgid "Initial KDE port"
+msgstr "Původní přenos do KDE"
+
+#: main.cpp:132
+#, kde-format
+msgid "Matthias Ettrich"
+msgstr "Matthias Ettrich"
+
+#: main.cpp:135
+#, kde-format
+msgid "Rodolfo Borges"
+msgstr "Rodolfo Borges"
+
+#: main.cpp:136 main.cpp:175
+#, kde-format
+msgid "New game types"
+msgstr "Nové typy her"
+
+#: main.cpp:138
+#, kde-format
+msgid "Peter H. Ruegg"
+msgstr "Peter H. Ruegg"
+
+#: main.cpp:141
+#, kde-format
+msgid "Michael Koch"
+msgstr "Michael Koch"
+
+#: main.cpp:142 main.cpp:163
+#, kde-format
+msgid "Bug fixes"
+msgstr "Opravy chyb"
+
+#: main.cpp:144
+#, kde-format
+msgid "Marcus Meissner"
+msgstr "Marcus Meissner"
+
+#: main.cpp:145
+#, kde-format
+msgid "Shuffle algorithm for game numbers"
+msgstr "Míchací algoritmus čísel her"
+
+#: main.cpp:147
+#, kde-format
+msgid "Tom Holroyd"
+msgstr "Tom Holroyd"
+
+#: main.cpp:148
+#, kde-format
+msgid "Initial patience solver"
+msgstr "Původní řešitel pasiánse"
+
+#: main.cpp:150
+#, kde-format
+msgid "Stephan Kulow"
+msgstr "Stephan Kulow"
+
+#: main.cpp:151
+#, kde-format
+msgid "Rewrite and current maintainer"
+msgstr "Přepis, současný správce"
+
+#: main.cpp:153
+#, kde-format
+msgid "Erik Sigra"
+msgstr "Erik Sigra"
+
+#: main.cpp:154
+#, kde-format
+msgid "Klondike improvements"
+msgstr "Vylepšení Klondike"
+
+#: main.cpp:156
+#, kde-format
+msgid "Josh Metzler"
+msgstr "Josh Metzler"
+
+#: main.cpp:157
+#, kde-format
+msgid "Spider implementation"
+msgstr "Implementace Spidera"
+
+#: main.cpp:159
+#, kde-format
+msgid "Maren Pakura"
+msgstr "Maren Pakura"
+
+#: main.cpp:160
+#, kde-format
+msgid "Documentation"
+msgstr "Dokumentace"
+
+#: main.cpp:162
+#, kde-format
+msgid "Inge Wallin"
+msgstr "Inge Wallin"
+
+#: main.cpp:165
+#, kde-format
+msgid "Simon Hürlimann"
+msgstr "Simon Hürlimann"
+
+#: main.cpp:166
+#, kde-format
+msgid "Menu and toolbar work"
+msgstr "Práce na nabídkách a panelu nástrojů"
+
+#: main.cpp:168
+#, kde-format
+msgid "Parker Coates"
+msgstr "Parker Coates"
+
+#: main.cpp:169
+#, kde-format
+msgid "Cleanup and polish"
+msgstr "Vyčištění a opravy"
+
+#: main.cpp:171
+#, kde-format
+msgid "Shlomi Fish"
+msgstr "Shlomi Fish"
+
+#: main.cpp:172
+#, kde-format
+msgid "Integration with Freecell Solver and further work"
+msgstr "Integrace s Řešitelem Freecell a další práce"
+
+#: main.cpp:174
+#, kde-format
+msgid "Michael Lang"
+msgstr "Michael Lang"
+
+#: main.cpp:191
+#, kde-format
+msgctxt "List separator"
+msgid ", "
+msgstr ", "
+
+#: main.cpp:197
+#, kde-format
+msgid "Try to find a solution to the given savegame"
+msgstr "Pokusit se nalézt řešení uložené hry"
+
+#: main.cpp:198
+#, kde-format
+msgid "Dealer to solve (debug)"
+msgstr "Obchodník k řešení (odladit)"
+
+#: main.cpp:199
+#, kde-format
+msgid "Game range start (default 0:INT_MAX)"
+msgstr "Začátek herního rozsahu (výchozí 0:INT_MAX)"
+
+#: main.cpp:200
+#, kde-format
+msgid "Game range end (default start:start if start given)"
+msgstr ""
+"Konec herního rozsahu (výchozí začátek:začátek je-li začátek stanovený)"
+
+#: main.cpp:201
+#, kde-format
+msgid ""
+"Skip the selection screen and load a particular game type. Valid values are: "
+"%1"
+msgstr ""
+"Přeskočit obrazovku s výběrem a načíst určitý typ hry. Platné hodnoty jsou: "
+"%1"
+
+#: main.cpp:202
+#, kde-format
+msgid "Directory with test cases"
+msgstr "Adresář s modelovými případy"
+
+#: main.cpp:203
+#, kde-format
+msgid "Generate random test cases"
+msgstr "Vytvořit náhodné modelové případy"
+
+#: main.cpp:204
+#, kde-format
+msgid "File to load"
+msgstr "Soubor k otevření"
+
+#: mainwindow.cpp:156
+#, kde-format
+msgctxt "Start a new game of a different type"
+msgid "New &Game..."
+msgstr "Nová &hra..."
+
+#: mainwindow.cpp:162
+#, kde-format
+msgctxt "Start a new game of without changing the game type"
+msgid "New &Deal"
+msgstr "Nově roz&dat"
+
+#: mainwindow.cpp:168
+#, kde-format
+msgctxt "Start a game by giving its particular number"
+msgid "New &Numbered Deal..."
+msgstr "&Nové očíslované rozdání..."
+
+#: mainwindow.cpp:173
+#, kde-format
+msgctxt "Replay the current deal from the start"
+msgid "Restart Deal"
+msgstr "Restartovat rozdání"
+
+#: mainwindow.cpp:179
+#, kde-format
+msgctxt "Start the game with the number one greater than the current one"
+msgid "Next Deal"
+msgstr "Následující rozdání"
+
+#: mainwindow.cpp:188
+#, kde-format
+msgctxt "Start the game with the number one less than the current one"
+msgid "Previous Deal"
+msgstr "Předchozí rozdání"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, GameStats)
+#: mainwindow.cpp:202 statisticsdialog.cpp:62 statisticsdialog.ui:13
+#, kde-format
+msgid "Statistics"
+msgstr "Statistiky"
+
+#: mainwindow.cpp:232
+#, kde-format
+msgctxt ""
+"Take one or more cards from the deck, flip them, and place them in play"
+msgid "Dra&w"
+msgstr "Se&jmout"
+
+#: mainwindow.cpp:237
+#, kde-format
+msgctxt "Deal a new row of cards from the deck"
+msgid "Dea&l Row"
+msgstr "Rozd&at řadu"
+
+#: mainwindow.cpp:242
+#, kde-format
+msgctxt "Collect the cards in play, shuffle them and redeal them"
+msgid "&Redeal"
+msgstr "&Rozdat znovu"
+
+#: mainwindow.cpp:247
+#, kde-format
+msgctxt "Automatically move cards to the foundation piles"
+msgid "Dro&p"
+msgstr "U&pustit"
+
+#: mainwindow.cpp:256
+#, kde-format
+msgid "Change Appearance..."
+msgstr "Změnit vzhled..."
+
+#: mainwindow.cpp:260
+#, kde-format
+msgid "&Enable Autodrop"
+msgstr "Povo&lit automatické upuštění"
+
+#: mainwindow.cpp:265
+#, kde-format
+msgid "E&nable Solver"
+msgstr "Povolit ř&ešitele"
+
+#: mainwindow.cpp:270
+#, kde-format
+msgid "Play &Sounds"
+msgstr "&Přehrávat zvuky"
+
+#: mainwindow.cpp:275
+#, kde-format
+msgid "&Remember State on Exit"
+msgstr "Zapa&matovat stav při ukončení"
+
+#: mainwindow.cpp:292
+#, kde-format
+msgid "Generate a theme preview image"
+msgstr "Vygenerovat obrázek s náhledem motivu"
+
+#: mainwindow.cpp:297
+#, kde-format
+msgid "Take Game Preview Snapshots"
+msgstr "Získat snímky náhledu hry"
+
+#: mainwindow.cpp:302
+#, kde-format
+msgid "Random Cards"
+msgstr "Náhodné karty"
+
+#: mainwindow.cpp:309
+#, kde-format
+msgid "Move Focus to Previous Pile"
+msgstr "Přepnout na předchozí hromadu"
+
+#: mainwindow.cpp:313
+#, kde-format
+msgid "Move Focus to Next Pile"
+msgstr "Přepnout na následující hromadu"
+
+#: mainwindow.cpp:317
+#, kde-format
+msgid "Move Focus to Card Below"
+msgstr "Přepnout na kartu níže"
+
+#: mainwindow.cpp:321
+#, kde-format
+msgid "Move Focus to Card Above"
+msgstr "Přepnout na kartu výše"
+
+#: mainwindow.cpp:325
+#, kde-format
+msgid "Cancel Focus"
+msgstr "Vrátit kartu"
+
+#: mainwindow.cpp:329
+#, kde-format
+msgid "Pick Up or Set Down Focus"
+msgstr "Vzít kartu nebo umístit kartu"
+
+#: mainwindow.cpp:441
+#, kde-format
+msgid "Card Deck"
+msgstr "Sada karet"
+
+#: mainwindow.cpp:443
+#, kde-format
+msgid "Select a card deck"
+msgstr "Vybrat sadu karet"
+
+#: mainwindow.cpp:448
+#, kde-format
+msgid "Game Theme"
+msgstr "Herní motiv"
+
+#: mainwindow.cpp:450
+#, kde-format
+msgid "Select a theme for non-card game elements"
+msgstr "Zvolit motiv pro nekaretní prvky hry"
+
+#: mainwindow.cpp:537
+#, kde-format
+msgctxt ""
+"Is disabled and changes to \"Help &with Current Game\" when there is no "
+"current game."
+msgid "Help &with %1"
+msgstr "Nápověda &k %1"
+
+#: mainwindow.cpp:571
+#, kde-format
+msgctxt "Shown when there is no game open. Is always disabled."
+msgid "Help &with Current Game"
+msgstr "Nápověda &k aktuální hře"
+
+#: mainwindow.cpp:745
+#, kde-format
+msgid ""
+"Are you sure you want to hide the menubar? The current shortcut to show it "
+"again is %1."
+msgstr ""
+"Jste si jistí, že chcete skrýt panel hlavní nabídky? Současná klávesová "
+"zkratka, která jej opět zobrazí je %1."
+
+#: mainwindow.cpp:747
+#, kde-format
+msgid "Hide Menubar"
+msgstr "Skrýt hlavní nabídku"
+
+#: mainwindow.cpp:848
+#, kde-format
+msgid "Downloading file failed: %1"
+msgstr "Stahování souboru selhalo: %1"
+
+#: mainwindow.cpp:855
+#, kde-format
+msgid "Error reading XML file: "
+msgstr "Chyba čtení souboru XML:"
+
+#: mainwindow.cpp:883
+#, kde-format
+msgid "XML file is not a KPat save."
+msgstr "Soubor XML není uloženou hrou KPat."
+
+#: mainwindow.cpp:889
+#, kde-format
+msgid "Unrecognized game id."
+msgstr "Neznámé ID hry."
+
+#: mainwindow.cpp:910
+#, kde-format
+msgid "Errors encountered while parsing file."
+msgstr "Nastaly chyby při zpracování souboru."
+
+#: mainwindow.cpp:930
+#, kde-format
+msgid "Load"
+msgstr "Načíst"
+
+#: mainwindow.cpp:959
+#, kde-format
+msgid "Save"
+msgstr "Uložit"
+
+#: mainwindow.cpp:978
+#, kde-format
+msgid "Error opening file for writing. Saving failed."
+msgstr "Chyba při zápisu do souboru. Ukládání selhalo."
+
+#: mainwindow.cpp:986
+#, kde-format
+msgid "Unable to create temporary file. Saving failed."
+msgstr "Nelze vytvořit dočasný soubor. Ukládání selhalo."
+
+#: mainwindow.cpp:1007
+#, kde-format
+msgid "Error uploading file. Saving failed: %1"
+msgstr "Chyba při odesílání souboru. Ukládání selhalo: %1"
+
+#: mainwindow.cpp:1031
+#, kde-format
+msgid "1 move"
+msgid_plural "%1 moves"
+msgstr[0] "1 tah"
+msgstr[1] "%1 tahy"
+msgstr[2] "%1 tahů"
+
+#: mod3.cpp:238
+#, kde-format
+msgid "Mod3"
+msgstr "Mod3"
+
+#: numbereddealdialog.cpp:37
+#, kde-format
+msgid "New Numbered Deal"
+msgstr "&Nové očíslované rozdání"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: numbereddealdialog.cpp:52 statisticsdialog.ui:33
+#, kde-format
+msgid "Game:"
+msgstr "Hra:"
+
+#: numbereddealdialog.cpp:56
+#, kde-format
+msgid "Deal number:"
+msgstr "Zadejte číslo hry:"
+
+#: simon.cpp:184
+#, kde-format
+msgid "Simple Simon"
+msgstr "Jednoduchý Šimon"
+
+#: spider.cpp:140
+#, kde-format
+msgid "Spider &Options"
+msgstr "M&ožnosti Pavouka"
+
+#: spider.cpp:141
+#, kde-format
+msgid "1 Suit (Easy)"
+msgstr "1 barva (lehké)"
+
+#: spider.cpp:142
+#, kde-format
+msgid "2 Suits (Medium)"
+msgstr "2 barvy (střední)"
+
+#: spider.cpp:143
+#, kde-format
+msgid "4 Suits (Hard)"
+msgstr "4 barvy (těžké)"
+
+#: spider.cpp:157
+#, kde-format
+msgid "Face &Down (harder)"
+msgstr "Lícem &dolů (obtížnější)"
+
+#: spider.cpp:158
+#, kde-format
+msgid "Face &Up (easier)"
+msgstr "Lícem &nahoru (snadnější)"
+
+#: spider.cpp:509
+#, kde-format
+msgid "Spider"
+msgstr "Pavouk"
+
+#: spider.cpp:511
+#, kde-format
+msgid "Spider (1 Suit)"
+msgstr "Pavouk (1 barva)"
+
+#: spider.cpp:512
+#, kde-format
+msgid "Spider (2 Suit)"
+msgstr "Pavouk (2 barvy)"
+
+#: spider.cpp:513
+#, kde-format
+msgid "Spider (4 Suit)"
+msgstr "Pavouk (4 barvy)"
+
+#: statisticsdialog.cpp:125
+#, kde-format
+msgid "%1 (%2%)"
+msgstr "%1 (%2%)"
+
+#: statisticsdialog.cpp:137
+#, kde-format
+msgid "1 loss"
+msgid_plural "%1 losses"
+msgstr[0] "1 prohra"
+msgstr[1] "%1 prohry"
+msgstr[2] "%1 proher"
+
+#: statisticsdialog.cpp:139
+#, kde-format
+msgid "1 win"
+msgid_plural "%1 wins"
+msgstr[0] "1 výhra"
+msgstr[1] "%1 výhry"
+msgstr[2] "%1 výher"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel7)
+#: statisticsdialog.ui:75
+#, kde-format
+msgid "Longest winning streak:"
+msgstr "Nejvíce výher v řadě:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: statisticsdialog.ui:82
+#, kde-format
+msgid "Games played:"
+msgstr "Odehraných her:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel8)
+#: statisticsdialog.ui:99
+#, kde-format
+msgid "Longest losing streak:"
+msgstr "Nejvíce proher v řadě:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: statisticsdialog.ui:116
+#, kde-format
+msgid "Games won:"
+msgstr "Vyhraných her:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: statisticsdialog.ui:133
+#, kde-format
+msgid "Current streak:"
+msgstr "Aktuální řada:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: statisticsdialog.ui:147
+#, kde-format
+msgid "Minimal number of moves:"
+msgstr "Minimální počet pohybů:"
+
+#: yukon.cpp:133
+#, kde-format
+msgid "Yukon"
+msgstr "Yukon"
